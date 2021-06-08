@@ -13,7 +13,7 @@
           span.text-bold cámaras fotográficas análoga y digital es diferente. 
           | Ya que la cámara análoga utiliza un rollo fotográfico sensible a la luz que ingresa por el lente y la imagen latente queda impresa por la oxidación de la emulsión adherida al rollo fotográfico. Esa oxidación se da por un proceso químico dado por la luz y los haluros de plata dispuestos en el rollo, que posteriormente debe ser revelada e impresa en papel para poder apreciar la imagen como resultado de la toma fotográfica.
         p.mb-3  Por su parte, la cámara digital utiliza un sensor digital que está formado por millones de células fotosensibles, donde se transforma la luz en impulsos electrónicos creando digitalmente la imagen. Al tomarse una fotografía cada celda del sensor analiza la luz que le llega del exterior por el lente; de esta manera 
-          span-text-bold  la fotografía digital es más fácil, práctica y editable.
+          span.text-bold la fotografía digital es más fácil, práctica y editable.
       .col-lg-5
         figure
           img(src='@/assets/curso/t3-i1.jpg', alt='imagen de cámara análoga con rollo fotográfico')
@@ -21,7 +21,8 @@
       .col-lg-12
         figure
           img(src='@/assets/curso/t3-i2.svg', alt='ilustración del proceso de captura análoga de fotos')
-    
+    br
+    br
     #t_3_1.titulo-segundo
       .h4 3.1  Introducción: definición e historia
     .row.mb-5
@@ -42,7 +43,8 @@
             span.text-bold Nota: 
             | para conocer en mayor detalle la historia de la fotografía con sus principales exponentes. se sugiere consultar el documento “Historia de la fotografía: un recorrido por los principales referentes fotográficos y su influencia posterior” escrito por la autora Yessica Espinosa. 
     
-
+    br
+    br
     #t_3_2.titulo-segundo
       .h4 3.2 Usos y aplicaciones
     .row.mb-5
@@ -96,12 +98,12 @@
     p.mb-5 La iluminación en fotografía es la materia prima, sin ella no podrá ser posible que la cámara fotográfica registre una imagen. Se debe recordar que es el sensor de la cámara fotográfica el que recoge la luz que llega del exterior. Cuando se hace referencia a la iluminación en fotografía, se debe tener en cuenta las fuentes lumínicas. Para estos asuntos fotográficos se tendrán en cuenta dos: 
     .row.mb-5.justify-content-center 
       .col-lg-5
-        span.text-bold  1. La luz natural
+        span.text-bold.mb-4  1. La luz natural
         figure
           img(src='@/assets/curso/t3-i22.jpg', alt='Cámara enfocando un paisaje')
           figcaption.no-bg  Producida por los rayos de sol.
       .col-lg-5
-        span.text-bold  2. La luz artificial
+        span.text-bold.mb-4  2. La luz artificial
         figure
           img(src='@/assets/curso/t3-i23.jpg', alt='Cámara enfocando objetos en una habitación')
           figcaption.no-bg  Producida por fuentes lumínicas artificiales.

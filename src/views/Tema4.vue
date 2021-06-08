@@ -13,7 +13,15 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/t4-i1.jpg', alt='mujer haciendo un cuadrado con dedos pulgar e indice en ambas manos')
-    
+    br
+    br
+    #t_4_1.titulo-segundo
+      .h4 4.1  Planos y ángulos
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      //-- figcaption Video: Leyenda del video
+
 
 </template>
 

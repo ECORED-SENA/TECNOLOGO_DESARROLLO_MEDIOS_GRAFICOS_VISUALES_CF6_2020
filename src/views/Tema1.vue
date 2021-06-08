@@ -16,9 +16,9 @@
       .col-lg-7
         p.mb-3 La imagen digital, está representada por impulsos electrónicos cuyo lenguaje es binario. Cuando se habla del lenguaje binario propio de los sistemas digitales, se hace referencia a que ese lenguaje se representa en números (1 y 0). Mismo lenguaje que tienen los pixeles y los bits que son la suma de esos pixeles y construyen una retícula de bits, los cuales son los encargados de darle una buena, regular o mala calidad a la imagen digital.
         p.mb-3 Ahora bien, este lenguaje digital de retícula de bits permite múltiples recursos en usos, almacenamiento y manipulación en el aspecto final en la imagen digital. Lo que hace de la misma un recurso favorable para su utilización en muchos contextos laborales, sociales, culturales y del entretenimiento.
-        p.mb-3 Las características en la imagen digital son determinantes para la calidad de la misma. Parámetros como
+        p.mb-3 Las características en la imagen digital son determinantes para la calidad de la misma. Parámetros como 
           span.text-bold profundidad de color, modos de color, tamaño de la imagen y resolución 
-          | son factores que inciden directamente en
+          | son factores que inciden directamente en 
           span.text-bold calidad de la imagen digital. 
       .col-lg-5
         figure.mb-5
@@ -91,7 +91,7 @@
       span.text-bold 2-bits = 4 colores, 3-bits = 8 colores, ..., 8-bits = 256 colores, ..., 24-bits = 16.7 millones de colores.
     .row.justify-content-center.mb-5
       .col-lg-4
-        .cajon.color-acento-botones.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-4
           p.text-bold 1-bit = 2 colores <br> 2-bit = 4 colores  <br> 8-bit = 256 colores  <br>  24-bit= 16,7 millones de colores
     .h6.mb-4 Los modos de color
     .row.mb-4
@@ -185,7 +185,8 @@
               span.text-bold Brillo (Brightness)  
               | da referencia a la intensidad de luz en cada color, entendiéndose como la cantidad de negro o blanco que contiene cada color en la imagen digital y que es representada en 
               span.text-bold  valores de entre 0 (negro) y 100 (blanco).
-
+    br
+    br
     #t_1_5.titulo-segundo
       .h4 1.5  Optimización y compresión de imágenes
     p.mb-5  Cuando se habla de la optimización de la imagen, se hace referencia a disminuir el tamaño del archivo (imagen digital). Cuando su uso es online se puede descargar rápidamente y de manera efectiva, esto se hace mediante procesos electrónicos con el uso de un plugin o script. Este proceso se puede denominar “compresión de la imagen” y las principales extensiones son:

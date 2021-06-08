@@ -74,4 +74,5 @@ export default {
 .p-l-0 {padding-left: 0px !important}
 .color-acento-contenido{ background-color: #FFEDD3; color:#000}
 .tarjeta.color-acento-contenido *{ color: #12263F}
+.tarjeta-Avatar-b > div{ padding-left: 7%}
 </style>
