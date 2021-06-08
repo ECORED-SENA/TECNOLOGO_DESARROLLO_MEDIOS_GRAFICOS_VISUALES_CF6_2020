@@ -277,7 +277,7 @@ export default {
         titulo: 'Gran angular 18 mm – 28 mm',
         texto:
           'El gran angular es un lente de una utilización muy específica, ya que altera la imagen y cambia la forma de los objetos de manera que los desproporciona. Igualmente, por esas condiciones mencionadas sirve para generar interés artístico y funcionalmente se puede tener buenas tomas en lugares estrechos.',
-        imagen: require('@/assets/curso/t3-i17.jpg'),
+        imagen: require('@/assets/curso/t3-i17-1.jpg'),
         //-- leyendaImagen: 'Leyenda de la imagen',
       },
       {
