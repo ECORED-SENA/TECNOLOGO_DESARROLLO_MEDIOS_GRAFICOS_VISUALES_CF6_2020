@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="243.667" height="254.031" viewBox="0 0 243.667 254.031">
+  <g id="t1-i7" transform="translate(-319.955 -5274.666)">
+    <rect id="Rectangle_13068" data-name="Rectangle 13068" width="150.815" height="150.815" transform="translate(339.734 5344.168)" fill="#f57c00"/>
+    <path id="Path_95438" data-name="Path 95438" d="M530.255,5274.666l-73.089,69.516.167,150.907,72.922-75.718Z" transform="translate(33.366)" fill="#26c6da"/>
+    <path id="Path_95439" data-name="Path 95439" d="M411.2,5274.667H559.737l-73.073,69.5H335.82Z" transform="translate(3.884 0)" fill="#fdd835"/>
+    <text id="c" transform="translate(544.82 5411.912)" fill="#111e61" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">c</tspan></text>
+    <text id="b" transform="translate(319.955 5361.168)" fill="#111e61" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">b</tspan></text>
+    <text id="a" transform="translate(479.011 5523.697)" fill="#111e61" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">a</tspan></text>
+  </g>
+</svg>
