@@ -1,1 +1,1 @@
-module.exports = 'Desarrollo de medios gráficos visuales'
+module.exports = 'Imagen y captura'

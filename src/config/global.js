@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Desarrollo de medios gráficos visuales',
+    componenteFormativo: 'Imagen y captura',
     descripcionCurso:
       'Las nuevas tecnologías han proporcionado nuevos lenguajes y a su vez, una representación del mundo que rodea a las personas. La imagen digital es una de esas herramientas que en su construcción va cambiando y reelaborándose desde lenguajes propios. Conocer los campos que intervienen en la formación de la imagen da el poder de interpretar cómo se están llevando los procesos de construcción de imagen. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
