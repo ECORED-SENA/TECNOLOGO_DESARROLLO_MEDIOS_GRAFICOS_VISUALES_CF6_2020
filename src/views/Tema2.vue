@@ -20,7 +20,7 @@
           .tarjeta.color-acento-contenido.op20
             .p-4.p-l-0
               .h5 El escáner: 
-              p es el dispositivo de captura de imágenes más tradicional, el cual se encarga de convertir una fotografía de un papel, imagen de revista o libro, a información que se puede interpretar y manejar en un computador. En la actualidad los escáneres pueden emplear 16 bits para cuantificar los niveles de cada sensor, por lo que cada píxel va codificado en 48 bits (16 bits x 3 sensores).
+              p Es el dispositivo de captura de imágenes más tradicional, el cual se encarga de convertir una fotografía de un papel, imagen de revista o libro, a información que se puede interpretar y manejar en un computador. En la actualidad los escáneres pueden emplear 16 bits para cuantificar los niveles de cada sensor, por lo que cada píxel va codificado en 48 bits (16 bits x 3 sensores).
     .row.justify-content-center
       .col-lg-12
         .tarjeta-Avatar-b.mb-5.align-items-center

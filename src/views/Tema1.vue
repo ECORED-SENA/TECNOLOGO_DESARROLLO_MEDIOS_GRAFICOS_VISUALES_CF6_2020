@@ -39,7 +39,7 @@
     p.mb-4.text-bold  Para mayor ampliación del contenido se puede consultar:
     .row.mb-5
       .col-lg-5
-        a.anexo.mb-3.mb-lg-0(href="#!" target="_blank")
+        a.anexo.mb-3.mb-lg-0(href="http://www.revista.unam.mx/vol.6/num5/art50/may_art50.pdf" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -77,12 +77,12 @@
         figure.mb-5
           img(src='@/assets/curso/t1-i6.jpg', alt='fotografia: calle y petalos de rosa- con efecto desenfocado')
           figcaption.no-bg Fotografía digital de 256x171 pixeles
-    p.mb-5  La amplitud o tamaño de la imagen es directamente proporcional al número de PPP (número de pixeles) por pulgada que se encuentre en ella. Al cambiar de tamaño una imagen digital los pixeles se estiran dejando su yuxtaposición del uno sobre el otro para colocarse uno junto al otro; lo cual hace que la imagen en amplitud se extienda, pero por tener muchos pixeles la calidad sigue siendo buena.
+    p.mb-5  La amplitud o tamaño de la imagen es directamente proporcional al número de <b>PPP (número de pixeles) por pulgada</b> que se encuentre en ella. Al cambiar de tamaño una imagen digital los pixeles se estiran dejando su <b>yuxtaposición</b> del uno sobre el otro para colocarse uno junto al otro; lo cual hace que la imagen en amplitud se extienda, pero por tener muchos pixeles la calidad sigue siendo buena.
     br
     br
     #t_1_4.titulo-segundo
       .h4 1.4  Modos y profundidad de color
-    p.mb-5  Al tener en cuenta la resolución de una imagen, se hace referencia al grado de detalle que tiene la imagen digital; en otras palabras, a la calidad de la misma. Si se recuerda, la imagen digital se construye de la suma de pixeles; es decir; una retícula de mapa de bits. Pero esos pixeles deben ocupar un área determinada, un área establecida digitalmente hablando (lo que ocupa un área determinada por los límites propios de la imagen).
+    p.mb-5  Hablar sobre la profundad de color, es hacer referencia al número de bits que necesita una imagen para codificar y guardar la información de color de cada pixel en una imagen digital. Por tal, se va a representar que cada pixel tiene unos valores (a x b x c) donde a y b son el alto y ancho de un pixel y c su profundidad, reflejándose de la siguiente manera:
     .row.justify-content-center.text-center
       .col-lg-3
         figure.mb-5

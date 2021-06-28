@@ -90,7 +90,7 @@
             |  tanto como expresión creativa como para la practicidad de la toma fotográfica. La amplia gama de lentes a disposición hace posible que todas las necesidades y exigencias fotográficas sean posibles. Es importante mencionar que los diferentes lentes tienen diversos ángulos de toma fotográfica. Todos los lentes se miden en mm (28 mm, 50 mm) y cada uno de ellos tiene su ángulo y amplitud de toma. Cada color en la siguiente imagen, representa un ángulo de toma según su valor de en mm.  
         figure
           img(src='@/assets/curso/t3-i17.svg', alt='representación de la longitud focal y sus angulos de visión')
-    .h5 Lentes
+    .h5 Tipos de lentes
     SlyderB.mb-5(:datos="datosSlyder3")
 
     
