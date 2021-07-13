@@ -177,12 +177,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      {
-        nombre: 'Wilmer Andrés Peña Carvajal',
-        cargo: 'Instructor',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
-      },
     ],
     desarrolloProducto: [
       {
