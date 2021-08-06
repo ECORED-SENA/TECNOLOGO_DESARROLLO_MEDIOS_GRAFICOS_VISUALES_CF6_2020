@@ -2,17 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
-        .h3
-          | 1
-      .h3 Imagen
+        span 1
+      h1 Imagen
 
     p.mb-5 La digitalización de la imagen, requiere de una comprensión en su construcción y elaboración de la misma. Si bien son procesos electrónicos, se debe entender qué sucede, cómo se procesa y cómo se expresa en su interior para poder interpretarlo desde el exterior; es decir, entender la imagen que sobre el dispositivo electrónico aparece.
 
     #t_1_1.titulo-segundo
-      .h4 1.1  Definición y características
-    .row.mb-5
+      h2 1.1  Definición y características
+    .row.mb-5(data-aos="fade-up")
       .col-lg-7
         p.mb-3 La imagen digital, está representada por impulsos electrónicos cuyo lenguaje es binario. Cuando se habla del lenguaje binario propio de los sistemas digitales, se hace referencia a que ese lenguaje se representa en números (1 y 0). Mismo lenguaje que tienen los pixeles y los bits que son la suma de esos pixeles y construyen una retícula de bits, los cuales son los encargados de darle una buena, regular o mala calidad a la imagen digital.
         p.mb-3 Ahora bien, este lenguaje digital de retícula de bits permite múltiples recursos en usos, almacenamiento y manipulación en el aspecto final en la imagen digital. Lo que hace de la misma un recurso favorable para su utilización en muchos contextos laborales, sociales, culturales y del entretenimiento.
@@ -26,9 +25,9 @@
     
     br
     #t_1_2.titulo-segundo
-      .h4 1.2  Tipos de imagen y formatos (extensiones de archivo)
+      h2 1.2  Tipos de imagen y formatos (extensiones de archivo)
     p.mb-3  La digitalización de la imagen, la utilización de los diferentes dispositivos de almacenamiento y la circulación, hacen que los tipos de imágenes tengan diferencias significativas en su matriz. En las imágenes fotográficas digitales su matriz es una retícula de pixeles que se asume como un mapa de bits; la suma de pixeles para la construcción de la imagen latente. 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-lg-8
         figure.mb-5
               img(src='@/assets/curso/t1-i2.jpg', alt='imagen de rosas con un efecto pixelado')
@@ -47,18 +46,18 @@
               span.text-bold Enlace web. 
               | Formatos de imagen digital - Revista Digital Universitaria
     .row
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p.mb-3  Otros tipos de imágenes son la vectoriales, las cuales tienen como construcción de matriz trazos geométricos con una línea, color, grosor y relleno. Su configuración es matemática, por lo que permite manipular las propiedades del objeto, ya que su redimensión se configura por líneas, puntos y curvas sin tener intervención de la resolución del monitor, de manera que nunca perderá nitidez en las pantallas digitales. Los formatos de archivo de imágenes vectoriales son: 
           span.text-bold  EPS, SVG, PDF, DXF.
 
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         figure.mb-5
           img(src='@/assets/curso/t1-i3.jpg', alt='imagen vectorial representando edificaciones de la ciudad')
     br
     br  
     #t_1_3.titulo-segundo
-      .h4 1.3  Resolución, tamaño y dimensión
-    p.mb-4  Al tener en cuenta la resolución de una imagen, se hace referencia al grado de detalle que tiene la imagen digital; en otras palabras, a la calidad de la misma. Si se recuerda, la imagen digital se construye de la suma de pixeles; es decir; una retícula de mapa de bits. Pero esos pixeles deben ocupar un área determinada, un área establecida digitalmente hablando (lo que ocupa un área determinada por los límites propios de la imagen).
+      h2 1.3  Resolución, tamaño y dimensión
+    p.mb-4(data-aos="fade-up")  Al tener en cuenta la resolución de una imagen, se hace referencia al grado de detalle que tiene la imagen digital; en otras palabras, a la calidad de la misma. Si se recuerda, la imagen digital se construye de la suma de pixeles; es decir; una retícula de mapa de bits. Pero esos pixeles deben ocupar un área determinada, un área establecida digitalmente hablando (lo que ocupa un área determinada por los límites propios de la imagen).
     .row.justify-content-center.mb-5
       .col-lg-5
         .cajon.color-acento-contenido.p-4.mb-4
@@ -69,11 +68,11 @@
     .h5 Tamaño de la imagen
     p.mb-5  La imagen digital tiene una ventaja sobre otros tipos de imagen análoga como la pintura y el dibujo y es que puede cambiar su tamaño desde su archivo y dimensión original. Pero la ampliación de la fotografía estará determinada por la resolución con que se toma la fotografía. Cabe recordar que, entre más pixeles por pulgada, mejor será la calidad de la imagen, dando posibilidad de ampliar por escala la imagen fotográfica sin perder calidad en el proceso.
     .row.justify-content-center
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         figure.mb-5
           img(src='@/assets/curso/t1-i5.jpg', alt='fotografia: calle y petalos de rosa')
           figcaption.no-bg Fotografía digital de 1024×683 pixeles
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure.mb-5
           img(src='@/assets/curso/t1-i6.jpg', alt='fotografia: calle y petalos de rosa- con efecto desenfocado')
           figcaption.no-bg Fotografía digital de 256x171 pixeles
@@ -81,8 +80,8 @@
     br
     br
     #t_1_4.titulo-segundo
-      .h4 1.4  Modos y profundidad de color
-    p.mb-5  Hablar sobre la profundad de color, es hacer referencia al número de bits que necesita una imagen para codificar y guardar la información de color de cada pixel en una imagen digital. Por tal, se va a representar que cada pixel tiene unos valores (a x b x c) donde a y b son el alto y ancho de un pixel y c su profundidad, reflejándose de la siguiente manera:
+      h2 1.4  Modos y profundidad de color
+    p.mb-5(data-aos="fade-up")  Hablar sobre la profundad de color, es hacer referencia al número de bits que necesita una imagen para codificar y guardar la información de color de cada pixel en una imagen digital. Por tal, se va a representar que cada pixel tiene unos valores (a x b x c) donde a y b son el alto y ancho de un pixel y c su profundidad, reflejándose de la siguiente manera:
     .row.justify-content-center.text-center
       .col-lg-3
         figure.mb-5
@@ -91,10 +90,10 @@
       span.text-bold 2-bits = 4 colores, 3-bits = 8 colores, ..., 8-bits = 256 colores, ..., 24-bits = 16.7 millones de colores.
     .row.justify-content-center.mb-5
       .col-lg-4
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-4(data-aos="flip-down")
           p.text-bold 1-bit = 2 colores <br> 2-bit = 4 colores  <br> 8-bit = 256 colores  <br>  24-bit= 16,7 millones de colores
     .h6.mb-4 Los modos de color
-    .row.mb-4
+    .row.mb-4(data-aos="fade-up")
       .col-lg-7
         p.mb-3  El color en la imagen digital se refiere a qué cantidad de datos asume un píxel para establecer su color. Se debe recordar que un píxel no solo tiene alto x ancho; también tiene una profundidad y desde ahí se puede interpretar que, dentro del píxel hay un contenedor que permite llenar de color. Datos que son reinterpretados por una pantalla de computador otorgándole color a la imagen digital.
         p.mb-3  Cuando se hace referencia a los modos de color para ser visto desde una pantalla de cualquier dispositivo electrónico, como lo sería una pantalla de computador, tablet, teléfono móvil, en fin, cualquier equipo que tenga la capacidad de proyectar imágenes a color; se denominan 
@@ -109,7 +108,7 @@
           | Este modo de color debe saberse que está vinculado con la impresión y será esto lo que defina el modo CMYK.
         p.mb-3  No se debe pasar por alto que los modos de color RGB y CMYK, tanto en la imagen digital como en la impresa, tienen en su configuración tono, luminosidad y saturación (HLS) que darán contrastes y diferencias entre los colores. Dando como resultado lo siguiente:
       
-      .col-lg-5   
+      .col-lg-5(data-aos="fade-left")   
         figure.mb-5
           img(src='@/assets/curso/t1-i8.svg', alt='representacion: modos de color RGB - CMYK')
     TabsC.color-primario.mb-5
@@ -188,40 +187,58 @@
     br
     br
     #t_1_5.titulo-segundo
-      .h4 1.5  Optimización y compresión de imágenes
-    p.mb-5  Cuando se habla de la optimización de la imagen, se hace referencia a disminuir el tamaño del archivo (imagen digital). Cuando su uso es online se puede descargar rápidamente y de manera efectiva, esto se hace mediante procesos electrónicos con el uso de un plugin o script. Este proceso se puede denominar “compresión de la imagen” y las principales extensiones son:
+      h2 1.5  Optimización y compresión de imágenes
+    p.mb-5(data-aos="fade-up")  Cuando se habla de la optimización de la imagen, se hace referencia a disminuir el tamaño del archivo (imagen digital). Cuando su uso es online se puede descargar rápidamente y de manera efectiva, esto se hace mediante procesos electrónicos con el uso de un plugin o script. Este proceso se puede denominar “compresión de la imagen” y las principales extensiones son:
     .row.justify-content-center
       .col-lg-10
-        .tarjeta-Avatar-b.mb-5.align-items-center
-          img.h60(src='@/assets/curso/t1-i15.svg' alt='icono de formato JPGE')
-          .tarjeta.color-acento-contenido.op20
-            .p-4.p-l-0
-              .h5 JPGE (Joint Photographis Experts Group)
-              p Este es un formato muy flexible que permite almacenar imágenes con bajo peso y con poca pérdida de información. Utiliza una distribución de 24 bits/pixel con lo cual cada imagen puede contener 16.777.216 colores.  
+        .tarjeta-avatar-b.mb-5(data-aos="flip-down")
+          .tarjeta-avatar-b__img
+            img.h60(src='@/assets/curso/t1-i15.svg' alt='icono de formato JPGE')
+          .tarjeta.color-acento-contenido
+            .p-4
+              .h4 JPGE (Joint Photographis Experts Group)
+              p Este es un formato muy flexible que permite almacenar imágenes con bajo peso y con poca pérdida de información. Utiliza una distribución de 24 bits/pixel con lo cual cada imagen puede contener 16.777.216 colores.
 
-        .tarjeta-Avatar-b.mb-5.align-items-center
-          img.h60(src='@/assets/curso/t1-i16.svg' alt='icono de formato GIF')
-          .tarjeta.color-acento-contenido.op20
-            .p-4.p-l-0
-              .h5 GIF (Graphic Interchange Format)
+        .tarjeta-avatar-b.mb-5(data-aos="flip-down")
+          .tarjeta-avatar-b__img
+            img.h60(src='@/assets/curso/t1-i16.svg' alt='icono de formato JPGE')
+          .tarjeta.color-acento-contenido
+            .p-4
+              .h4 GIF (Graphic Interchange Format)
               p Su característica principal y diferencial es que permite transparencias en el fondo y puede ser animado. Su distribución es de 8 bits/pixel con lo cual tiene la capacidad de tener 256 colores.
-        
-        .tarjeta-Avatar-b.mb-5.align-items-center
-          img.h60(src='@/assets/curso/t1-i17.svg' alt='icono de formato PNG')
-          .tarjeta.color-acento-contenido.op20
-            .p-4.p-l-0
-              .h5 PNG (Portable Network Graphic)
+
+        .tarjeta-avatar-b.mb-5(data-aos="flip-down")
+          .tarjeta-avatar-b__img
+            img.h60(src='@/assets/curso/t1-i17.svg' alt='icono de formato JPGE')
+          .tarjeta.color-acento-contenido
+            .p-4
+              .h4 PNG (Portable Network Graphic)
               p Este es el formato de mayor utilización para la web y su mayor característica es la gran calidad y alta compresión.
 
+        
+
+  
   
 </template>
 
 <script>
+import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
+  components: {
+    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  },
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

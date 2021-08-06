@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
-        .h3
-          | 3
-      .h3 Captura fotográfica análoga y digital
+        span 3
+      h1 Captura fotográfica análoga y digital
     .row.mb-5
       .col-lg-7
         p.mb-3  La captura de la imagen en las 
@@ -24,7 +23,7 @@
     br
     br
     #t_3_1.titulo-segundo
-      .h4 3.1  Introducción: definición e historia
+      h2 3.1  Introducción: definición e historia
     .row.mb-5
       .col-lg-7
         p.mb-3  Definir la fotografía es asumirla como arte sumada con la técnica. Es decir, elegir el mejor escenario para obtener imágenes duraderas debido a la acción de la luz en los diferentes formatos de captura de imágenes. Ellos pueden ser análogos o digitales. 
@@ -46,7 +45,7 @@
     br
     br
     #t_3_2.titulo-segundo
-      .h4 3.2 Usos y aplicaciones
+      h2 3.2 Usos y aplicaciones
     .row.mb-5
       .col-lg-7
         p.mb-3  El uso de la fotografía fue creado para la representación de la realidad desde su creación y hasta hoy día, la fotografía ha construido una necesidad comunicativa importante en la humanidad. Por ello, se debe pensar que no solo es una herramienta que permite reflejar y eternizar diferentes momentos de la vida, también es una herramienta de comunicación directa, con un lenguaje universal que es el de la imagen y que en su práctica y utilidad es de todos.
@@ -62,7 +61,7 @@
     br
     br
     #t_3_3.titulo-segundo
-      .h4 3.3 Concepto y operación
+      h2 3.3 Concepto y operación
     .row.mb-5
       .col-lg-7
         p.mb-4  El concepto fotográfico es un requerimiento que lo da, la necesidad comunicativa de la fotografía y su público; es decir, qué desea comunicar el fotógrafo con la imagen. Como se vio anteriormente, cada aplicación fotográfica tiene su contexto, personajes y situaciones; y la manera en cómo se consigue esa representación de la realidad hecha fotografía, será responsabilidad del fotógrafo para ubicarse en el lugar, momento y hora adecuada para cada una de los diferentes conceptos fotográficos. 
@@ -133,7 +132,7 @@
     br
     br
     #t_3_4.titulo-segundo
-      .h4 3.4 Medición y exposición
+      h2 3.4 Medición y exposición
     .row.mb-5
       .col-lg-7 
         p.mb-3  La medición y exposición fotográfica está sometida a dispositivos electrónicos en su mayoría externos y hace referencia a valores adecuados que se deben manejar en la cámara para obtener una buena toma fotográfica. Estos valores los dará un exposímetro que hará lectura de la cantidad de luz que llega a el sensor. Como se ha dicho, la fotografía es el manejo y utilización de la luz y para ello, la cámara tiene unos dispositivos que sirven para detener el exceso de luz y ausencia de la misma. Estos mecanismos son el diafragma y el obturador, anteriormente mencionados. 
@@ -175,7 +174,6 @@
           img(src='@/assets/curso/t3-i32.jpg', alt='fotografia de polvo de harina en el aire')
           figcaption.no-bg  
             span.text-bold  Fotografía con velocidad lenta en obturación
-
 
 
 </template>
@@ -310,12 +308,15 @@ export default {
       },
     ],
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
-<style lang="sass" scoped>
-.h70  {heigh: 70px}
-.p-l-0 {padding-left: 0px !important}
-.color-acento-contenido{ background-color: #FFEDD3; color:#000}
-.tarjeta.color-acento-contenido *{ color: #12263F}
-</style>
+<style lang="sass" scoped></style>
